@@ -26,6 +26,6 @@ Optimized for iPhone 5s (portrait)
 3. NSHipster.com (For review of alert view)
 4. Noticed some of the assets varied from the animation example provided. Reused Search feed in Trending feed (or vice/cversa?) to get a scrollview in effect.
 
-<img src="https://github.com/losifer/codepath-tumblr/blob/master/Tumblr.gif" alt="Tumblr Prototype Screen Demo" width="320" />
+<img src="https://github.com/losifer/codepath-tumblr/blob/master/Tumblr2.gif" alt="Tumblr Prototype Screen Demo" width="320" />
 
 <a href="http://www.cockos.com/licecap/">LICEcap - simple animated screen captures</a>
