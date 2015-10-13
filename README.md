@@ -9,25 +9,22 @@ Optimized for iPhone 5s (portrait)
 
 # Required items:
 
-- [x] this is a complete item
-- [ ] this is an incomplete item
+- [x] Tapping on Home, Search, Account, or Trending should show the respective screen and highlight the tab bar button.
+- [x] Compose button should modally present the compose screen.
 
 # Optionals and Extras:
 
-1. Swipe of left edge reveals main menu (can use button in hamburger menu as well)
-2. Swipe of right edge bringd content back (can use button in hamburger menu as well)
-3. To reliad message, pull and drag down on message scrollview
-This reveals an activity indicator and reloads the message that was archived/deleted (self optional)
-4. Segmented menu functional to slide archived and read later views plus tint color changes on selection
+- [x] Compose screen is faded in while the buttons animate in.
+- [x] Login button should show animate the login form over the view controller. (threw in an alert view just for fun and practice)
+- [x] Discover bubble should bob up and down unless the SearchViewController is tapped.
 
 # Resources:
 
 1. Codepath Guides & Facebook Group (Much Thanks!)
-2. Study session and Codepath video tutorials
-3. Previous failures
-4. Videos posted in FB group
-5. Google
+1. Study session and Codepath video tutorials
+2. Trials and tribulations
+3. NSHipster.com (For review of alert view)
 
-<img src="https://github.com/losifer/codepath-mailbox/blob/master/mailbox.gif" alt="Mailbox Prototype Screen Demo" width="320" />
+<img src="https://github.com/losifer/codepath-tumblr/blob/master/Tumblr.gif" alt="Tumblr Prototype Screen Demo" width="320" />
 
 <a href="http://www.cockos.com/licecap/">LICEcap - simple animated screen captures</a>
