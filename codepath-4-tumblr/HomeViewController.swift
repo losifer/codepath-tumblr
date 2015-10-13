@@ -17,9 +17,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         scrollView.contentSize = CGSize(width: 320, height: 503)
-        // scrollView.contentSize = homeImage.image!.size
-        UIApplication.sharedApplication().statusBarStyle = .LightContent
-
         // Do any additional setup after loading the view.
     }
 

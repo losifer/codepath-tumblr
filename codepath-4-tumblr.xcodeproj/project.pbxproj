@@ -13,7 +13,6 @@
 		3A4297E41BC72CAE002D0B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4297E31BC72CAE002D0B84 /* AppDelegate.swift */; };
 		3A4297E61BC72CAE002D0B84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4297E51BC72CAE002D0B84 /* ViewController.swift */; };
 		3A4297EB1BC72CAE002D0B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4297EA1BC72CAE002D0B84 /* Assets.xcassets */; };
-		3A4297EE1BC72CAE002D0B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4297EC1BC72CAE002D0B84 /* LaunchScreen.storyboard */; };
 		3A4297F91BC72CAF002D0B84 /* codepath_4_tumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4297F81BC72CAF002D0B84 /* codepath_4_tumblrTests.swift */; };
 		3A4298041BC72CAF002D0B84 /* codepath_4_tumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4298031BC72CAF002D0B84 /* codepath_4_tumblrUITests.swift */; };
 		3A4298121BC72CED002D0B84 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4298111BC72CED002D0B84 /* TabBarViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -21,6 +20,7 @@
 		3A4298161BC72E8C002D0B84 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4298151BC72E8C002D0B84 /* SearchViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		3A4298181BC72EA7002D0B84 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4298171BC72EA7002D0B84 /* AccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		3A42981A1BC72EAE002D0B84 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4298191BC72EAE002D0B84 /* TrendingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3ADC544A1BCCCCA1001F113D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADC54491BCCCCA1001F113D /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,6 @@
 		3A4297E51BC72CAE002D0B84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A4297E81BC72CAE002D0B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A4297EA1BC72CAE002D0B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3A4297ED1BC72CAE002D0B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A4297EF1BC72CAE002D0B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A4297F41BC72CAF002D0B84 /* codepath-4-tumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "codepath-4-tumblrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4297F81BC72CAF002D0B84 /* codepath_4_tumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_4_tumblrTests.swift; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		3A4298151BC72E8C002D0B84 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3A4298171BC72EA7002D0B84 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		3A4298191BC72EAE002D0B84 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		3ADC54491BCCCCA1001F113D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,9 +120,9 @@
 				3A0917DE1BCB324E007B2F78 /* LoginViewController.swift */,
 				3A4298171BC72EA7002D0B84 /* AccountViewController.swift */,
 				3A4298191BC72EAE002D0B84 /* TrendingViewController.swift */,
+				3ADC54491BCCCCA1001F113D /* Launch Screen.storyboard */,
 				3A4298111BC72CED002D0B84 /* TabBarViewController.swift */,
 				3A4297EA1BC72CAE002D0B84 /* Assets.xcassets */,
-				3A4297EC1BC72CAE002D0B84 /* LaunchScreen.storyboard */,
 				3A4297EF1BC72CAE002D0B84 /* Info.plist */,
 			);
 			path = "codepath-4-tumblr";
@@ -249,8 +249,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADC544A1BCCCCA1001F113D /* Launch Screen.storyboard in Resources */,
 				3A0E25EB1BCB72E600448B24 /* Main.storyboard in Resources */,
-				3A4297EE1BC72CAE002D0B84 /* LaunchScreen.storyboard in Resources */,
 				3A4297EB1BC72CAE002D0B84 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,14 +326,6 @@
 				3A4297E81BC72CAE002D0B84 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3A4297EC1BC72CAE002D0B84 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A4297ED1BC72CAE002D0B84 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -424,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "codepath-4-tumblr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.theorize.codepath-4-tumblr";
@@ -435,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "codepath-4-tumblr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.theorize.codepath-4-tumblr";

@@ -10,6 +10,7 @@ import UIKit
 
 class SearchViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var searchFeed: UIImageView!
     @IBOutlet weak var loadingImage: UIImageView!
     
@@ -28,6 +29,8 @@ class SearchViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        
+        scrollView.contentSize = searchFeed.image!.size
         
         searchFeed.alpha = 0
         

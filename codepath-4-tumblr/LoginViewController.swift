@@ -42,12 +42,13 @@ class LoginViewController: UIViewController, UIViewControllerTransitioningDelega
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func didEditField(sender: AnyObject) {
-        if emailField.text == "" || passwordField.text == "" {
+    @IBAction func editingChanged(sender: AnyObject) {
+        if emailField.text!.isEmpty || passwordField.text!.isEmpty {
             loginButton.enabled = false
         } else {
             loginButton.enabled = true
         }
+
     }
 
     func keyboardWillShow(notification: NSNotification!) {
@@ -70,11 +71,28 @@ class LoginViewController: UIViewController, UIViewControllerTransitioningDelega
     }
     
     @IBAction func cancelButtonDidTouch(sender: AnyObject) {
-    
+        loginContainer.endEditing(true)
+        dismissViewControllerAnimated(true, completion: nil)
     }
-    
+
     
     @IBAction func loginButtonDidTouch(sender: AnyObject) {
+        if emailField.text != "los@gmail.com" && passwordField != "los" {
+            let alertController = UIAlertController(title: "Incorrect Login", message: "Please check that both your email and your password are correct.", preferredStyle: .Alert)
+            
+            let cancelAction = UIAlertAction(title: "Try Again", style: .Cancel) { (action) in
+                // ...
+            }
+            alertController.addAction(cancelAction)
+           
+            self.presentViewController(alertController, animated: true) {
+                // ...
+            }
+
+        } else {
+            dismissViewControllerAnimated(true, completion: nil)
+        }
+        
     }
     
     required init(coder aDecoder: NSCoder) {

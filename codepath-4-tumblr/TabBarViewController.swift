@@ -28,7 +28,8 @@ class TabBarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // 
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        UIApplication.sharedApplication().statusBarHidden = false
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
@@ -58,15 +59,8 @@ class TabBarViewController: UIViewController {
 
     @IBAction func composeButtonDidTouch(sender: AnyObject) {
         
-      //  let composeViewController: ComposeViewController
-        
-       // composeViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ComposeViewController") as! ComposeViewController
-        
-      //  presentViewController(composeViewController, animated: true, completion: nil)
-        
         performSegueWithIdentifier("ComposeViewController", sender: self)
-        // explorePopup.hidden = false
-        
+
     }
     
     
